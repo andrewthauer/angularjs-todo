@@ -1,0 +1,16 @@
+<h2>To-Do Detail</h2>
+
+<form>
+  <label for="todoId">Id:</label>
+  <input name="todoId" type="hidden" ng-model="$ctrl.item.id" />
+  {{$ctrl.item.id}}
+
+  <br /><br />
+  <label for="todoTitle">Title</label>
+  <br />
+  <input type="text" ng-model="$ctrl.item.title" />
+
+  <br /><br />
+  <button type="submit">Save</button>
+  <button>Cancel</button>
+</form>

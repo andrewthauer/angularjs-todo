@@ -1,0 +1,6 @@
+<span>
+  {{$ctrl.item.title}}
+  ({{$ctrl.item.id}})
+  <input type="text" ng-model="$ctrl.item.title" />
+  <a type="button" ui-sref="item({ itemId: $ctrl.item.id })">edit</a>
+</span>

@@ -1,0 +1,9 @@
+<h2>Items</h2>
+
+<ul class="todo-list">
+  <li ng-repeat="item in $ctrl.items track by item.id">
+    <app-card>
+      <app-todo item="item"></app-todo>
+    </app-card>
+  </li>
+</ul>
